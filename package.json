@@ -1,0 +1,16 @@
+{
+  "name": "telegram-paid-group-bot",
+  "version": "1.0.0",
+  "description": "Telegram paid group automation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "stripe": "^18.0.0"
+  }
+}
